@@ -14,7 +14,7 @@ document.addEventListener('click', function(e) {
   console.log(e.currentTarget);
 });
 
-const apiKey = 'lT72EtOZwFMRYL0Fq+hsug==YlEscJLFvZQjSVfu';
+const apiKey = '';
 let apiUrl = 'https://api.api-ninjas.com/v1/weather?city='
 
 const options = {
