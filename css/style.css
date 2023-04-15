@@ -1,0 +1,9 @@
+*{
+  border: thin solid goldenrod;
+}
+html{
+  background-color: gray;
+}
+body{
+  max-width: 360px;
+}

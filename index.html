@@ -4,19 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Wonderful Weather App</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <label for="cityInput">Enter City</label>
-  <input type="text" id="cityInput">
-  <h1 id="h1">h1</h1>
-  <h2 id="h2">h2</h2>
-  <h3 id="h3">h3</h3>
-  <h4 id="h4">h4</h4>
-  <h5 id="h5">h5</h5>
-  <h6 id="h6">h6</h6>
-  <button id="btn">click me</button>
+  <header>
+    <h1>Wonderful Weather</h1>
+  </header>
+  <main>
+    <section>
+      <h2>for: <span id="location"></span></h2>
+      <article>
+        <h3>Temperature</h3>
+        <p id="temperature"><span></span> &deg;</p>
+      </article>
+      <article>
+        <h3>Feels Like</h3>
+        <p id="feels-like">--</p>
+      </article>
+      <article>
+        <h3>Sunrise Time</h3>
+        <p id="sunrise">--</p>
+      </article>
+      <article>
+        <h3>Sunset Time</h3>
+        <p id="sunset">--</p>
+      </article>
+    </section>
+    <button id="btn"></button>
+  </main>
 </body>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 </html>
